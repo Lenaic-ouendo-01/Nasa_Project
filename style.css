@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-1{
+  background-image: url('./public/NASA/تدور-الكواكب-والأجرام-السماوية-في-مدارات-خاصة-حول-الشمس-وذلك-بسبب1-1536x832.jpg');
+}
+
+.search-input{
+  @apply bg-white/10 appearance-none outline-none;
+}
+
+[class*='destination-']{
+  @apply border-zinc-500 opacity-95 hover:opacity-100 hover:-translate-y-1 shadow-lg hover:shadow-lg hover:shadow-zinc-300;
+}
+
+.favoris{
+  @apply rounded-xl shadow-sm hover:shadow-md;
+}
